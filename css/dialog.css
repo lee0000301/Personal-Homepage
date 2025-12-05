@@ -1,0 +1,41 @@
+/* Dialog/Modal Styles */
+.dialog-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 50;
+    background-color: rgb(0 0 0 / 0.8);
+    display: none;
+}
+
+.dialog-overlay.open {
+    display: block;
+    animation: fadeIn 0.2s ease-out;
+}
+
+.dialog-content {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    z-index: 50;
+    display: grid;
+    width: 100%;
+    max-width: 32rem;
+    transform: translate(-50%, -50%);
+    gap: 1rem;
+    border: 1px solid hsl(var(--border));
+    background-color: hsl(var(--background));
+    padding: 1.5rem;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -2px rgb(0 0 0 / 0.05);
+    transition-duration: 200ms;
+    border-radius: var(--radius);
+    display: none;
+}
+
+.dialog-content.open {
+    display: grid;
+    animation: zoomIn 0.2s ease-out;
+}
+
+.hidden {
+    display: none !important;
+}
