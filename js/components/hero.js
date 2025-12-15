@@ -13,7 +13,7 @@ export function renderHero() {
                             <h2 class="text-2xl text-muted-foreground">2학년 재학 중</h2>
                         </div>
                         <p class="text-lg text-muted-foreground">
-                            개발자를 지망하는 
+                            개발자를 지망하는 20223057 
                             <h2 class="text-2xl text-muted-foreground">이상혁</h2>
                             입니다.                        </p>
                         <div class="flex flex-wrap gap-4">
