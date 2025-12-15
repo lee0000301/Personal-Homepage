@@ -13,7 +13,9 @@ export function renderHero() {
                             <h2 class="text-2xl text-muted-foreground">2학년 재학 중</h2>
                         </div>
                         <p class="text-lg text-muted-foreground">
-                            개발자를 지망하는 학생입니다.                        </p>
+                            개발자를 지망하는 
+                            <h2 class="text-2xl text-muted-foreground">이상혁</h2>
+                            입니다.                        </p>
                         <div class="flex flex-wrap gap-4">
                             <button id="hero-contact-btn" class="btn btn-default btn-lg">
                                 <i data-lucide="mail" class="w-4 h-4 mr-2"></i> 연락하기
