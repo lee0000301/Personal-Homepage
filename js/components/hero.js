@@ -16,7 +16,7 @@ export function renderHero() {
                             <h1 class="text-2xl font-bold text-muted-foreground" style="white-space: nowrap;">
                             20223057 이상혁입니다.
                             </h1>
-                        </p> 
+                        </p>   
                         <div class="flex flex-wrap gap-4">
                             <button id="hero-contact-btn" class="btn btn-default btn-lg">
                                 <i data-lucide="mail" class="w-4 h-4 mr-2"></i> 연락하기
